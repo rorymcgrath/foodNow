@@ -22,7 +22,7 @@ public class DemoLoader extends AsyncTaskLoader<DemoModel> {
         DemoModel model = new DemoModel();
         String html = "Some Random String";
         try {
-            Thread.sleep(2);
+            Thread.sleep(5000);
         } catch(Exception e) {
 //            LOLNO
         }

@@ -10,13 +10,13 @@ import com.foodnow.views.MainView;
 public class MainController extends Activity {
     private MainView.ViewListener viewListener = new MainView.ViewListener() {
         @Override
-        public void onRequestEvents() {
+        public void onEventOne() {
             Intent intent = new Intent(MainController.this, DemoController.class);
             startActivity(intent);
         }
 
         @Override
-        public void onManageAccounts() {
+        public void onEventTwo() {
 
         }
     };

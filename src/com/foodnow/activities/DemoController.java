@@ -11,11 +11,11 @@ import com.foodnow.models.DemoModel;
 import com.foodnow.views.DemoView;
 
 /**
- * @author lifenoodles
+ * @author Donagh Hatton
  *         created on 31/03/2014.
  */
 public class DemoController extends Activity {
-    private static final int ID_CALENDAR_LOADER = 0;
+    private static final int ID_DEMO_LOADER = 0;
     private DemoView view;
     private DemoModel model;
 
@@ -23,7 +23,7 @@ public class DemoController extends Activity {
         @Override
         public void onTextClicked() {
             model.setUpdating(true);
-            getLoaderManager().initLoader(ID_CALENDAR_LOADER, null, new CalendarLoaderHandler());
+            getLoaderManager().initLoader(ID_DEMO_LOADER, null, new DemoLoaderHandler());
         }
     };
 
@@ -44,16 +44,16 @@ public class DemoController extends Activity {
         setContentView(view);
     }
 
-    private class CalendarLoaderHandler implements LoaderManager.LoaderCallbacks<DemoModel> {
+    private class DemoLoaderHandler implements LoaderManager.LoaderCallbacks<DemoModel> {
         @Override
         public Loader<DemoModel> onCreateLoader(int i, Bundle bundle) {
             return new DemoLoader(DemoController.this);
         }
 
         @Override
-        public void onLoadFinished(Loader<DemoModel> calendarModelLoader, DemoModel calendarModel) {
-            DemoController.this.setCalendarModel(calendarModel);
-            calendarModel.onUpdated();
+        public void onLoadFinished(Loader<DemoModel> demoModelLoader, DemoModel demoModel) {
+            DemoController.this.setCalendarModel(demoModel);
+            demoModel.onUpdated();
         }
 
         @Override

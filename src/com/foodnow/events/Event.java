@@ -1,12 +1,13 @@
 package com.foodnow.events;
 
-import net.jcip.annotations.Immutable;
+//import net.jcip.annotations.Immutable;
 
 /**
  * @author Donagh Hatton
  *         created on 3/27/14.
  */
-@Immutable
+//@Immutable
+// stripping this until we can add maven support
 public class Event {
     private final String type;
     private final Dispatcher sender;
