@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.foodnow.views.MainView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+    <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+        <Button
+                android:id="@+id/buttonEvents"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sample_menu_item"
+                android:background="?android:attr/selectableItemBackground"/>
+
+        <View style="@style/Divider"/>
+
+        <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/placeholder"
+                android:id="@+id/buttonAccounts" android:layout_gravity="center_horizontal"
+                android:background="?android:attr/selectableItemBackground"/>
+
+        <View style="@style/Divider"/>
+
+    </LinearLayout>
+</com.foodnow.views.MainView>

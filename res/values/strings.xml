@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Food Now</string>
+    <string name="placeholder">PLACEHOLDER</string>
+    <string name="sample_menu_item">Sample Menu Item</string>
+</resources>
