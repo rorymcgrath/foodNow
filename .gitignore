@@ -3,4 +3,5 @@ local.properties
 proguard-project.txt
 gen/
 out/
+target/
 *.iml

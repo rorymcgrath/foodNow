@@ -1,4 +1,4 @@
-package com.foodnow.events;
+package com.foodNow.events;
 
 /**
  * @author Donagh Hatton

@@ -1,8 +1,8 @@
-package com.foodnow.models;
+package com.foodNow.models;
 
-import com.foodnow.events.Dispatcher;
-import com.foodnow.events.Event;
-import com.foodnow.events.EventDispatcher;
+import com.foodNow.events.Dispatcher;
+import com.foodNow.events.Event;
+import com.foodNow.events.EventDispatcher;
 
 /**
  * @author Donagh Hatton

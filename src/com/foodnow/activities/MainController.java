@@ -1,11 +1,11 @@
-package com.foodnow.activities;
+package com.foodNow.activities;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import com.foodnow.R;
-import com.foodnow.views.MainView;
+import com.foodNow.R;
+import com.foodNow.views.MainView;
 
 public class MainController extends Activity {
     private MainView.ViewListener viewListener = new MainView.ViewListener() {

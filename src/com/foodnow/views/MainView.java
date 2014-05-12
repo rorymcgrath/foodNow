@@ -1,11 +1,11 @@
-package com.foodnow.views;
+package com.foodNow.views;
 
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
-import com.foodnow.R;
+import com.foodNow.R;
 
 /**
  * @author Donagh Hatton

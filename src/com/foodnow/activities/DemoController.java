@@ -1,14 +1,14 @@
-package com.foodnow.activities;
+package com.foodNow.activities;
 
 import android.app.Activity;
 import android.app.LoaderManager;
 import android.content.Loader;
 import android.os.Bundle;
 import android.view.View;
-import com.foodnow.R;
-import com.foodnow.loaders.DemoLoader;
-import com.foodnow.models.DemoModel;
-import com.foodnow.views.DemoView;
+import com.foodNow.R;
+import com.foodNow.loaders.DemoLoader;
+import com.foodNow.models.DemoModel;
+import com.foodNow.views.DemoView;
 
 /**
  * @author Donagh Hatton

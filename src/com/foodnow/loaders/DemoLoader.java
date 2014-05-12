@@ -1,8 +1,8 @@
-package com.foodnow.loaders;
+package com.foodNow.loaders;
 
 import android.content.AsyncTaskLoader;
 import android.content.Context;
-import com.foodnow.models.DemoModel;
+import com.foodNow.models.DemoModel;
 
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;

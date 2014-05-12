@@ -1,4 +1,4 @@
-package com.foodnow.models;
+package com.foodNow.models;
 
 /**
  * @author Donagh Hatton

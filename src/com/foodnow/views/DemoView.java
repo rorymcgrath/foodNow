@@ -1,15 +1,14 @@
-package com.foodnow.views;
+package com.foodNow.views;
 
-import android.app.ProgressDialog;
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
-import com.foodnow.R;
-import com.foodnow.events.Event;
-import com.foodnow.events.EventListener;
-import com.foodnow.models.DemoModel;
+import com.foodNow.R;
+import com.foodNow.events.Event;
+import com.foodNow.events.EventListener;
+import com.foodNow.models.DemoModel;
 
 /**
  * @author Donagh Hatton
@@ -18,7 +17,7 @@ import com.foodnow.models.DemoModel;
 public class DemoView extends LinearLayout {
     private DemoModel model;
     private ViewListener viewListener;
-    private ProgressDialog dialog = new ProgressDialog(getContext());
+    //private ProgressDialog dialog = new ProgressDialog(getContext());
 
     public static interface ViewListener {
         public void onTextClicked();
@@ -28,15 +27,15 @@ public class DemoView extends LinearLayout {
         @Override
         public void onEvent(Event event) {
             bind();
-            dialog.dismiss();
+            //dialog.dismiss();
         }
     };
 
     private final EventListener modelUpdatingListener = new EventListener() {
         @Override
         public void onEvent(Event event) {
-            dialog.setMessage("Fetching...");
-            dialog.show();
+            //dialog.setMessage("Fetching...");
+            //dialog.show();
         }
     };
 
