@@ -1,9 +1,6 @@
 .idea/
-
 local.properties
-
 proguard-project.txt
-
 gen/
-
 out/
+*.iml
